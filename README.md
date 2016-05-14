@@ -492,5 +492,5 @@ GLSL shader syntax highlight plug-in(.vsix) 为Visual Studio制作一个GLSL Sha
 <p>GetTags方法是由系统调用的迭代方法，yield return new TagSpan&lt;ClassificationTag&gt;()返回我们的着色对象，即可实现着色效果。</p>
 <p>编译并运行，可以看到vert、fraghe geom已经有了语法着色了。</p>
 <p>&nbsp;</p>
-<p>如果你实在做不出来，不如<a href="https://github.com/bitzhuwei/ShaderEditor.git" target="_blank">去我的Github下载源码</a>，直接编译即可。</p>
+<p>如果你实在做不出来，不如<a href="https://github.com/bitzhuwei/GLSLHighlight" target="_blank">去我的Github下载源码</a>，直接编译即可。</p>
 <p>&nbsp;</p>
