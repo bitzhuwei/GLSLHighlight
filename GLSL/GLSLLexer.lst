@@ -1,0 +1,67 @@
+/*
+=============================================================================
+NFSA Summary for input file <GLSLLexer.lex>
+=============================================================================
+Total NFSA states = 5781
+Number of Start Conditions = 1
+Start condition INITIAL:
+  number of patterns = 8, number of nfsa states = 6192, accept states = 8
+=============================================================================
+GPLEX: NFSA built.   22 msec
+=============================================================================
+GPLEX: DFSA built. 5766 msec
+=============================================================================
+GPLEX: DFSA minimized.  169 msec
+=============================================================================
+GPLEX: Shortest strings found.   18 msec
+=============================================================================
+DFSA Summary
+=============================================================================
+Number of dfsa instances = 1
+Start condition INITIAL:
+  number of dfsa states = 2665, number of accept states = 2509
+=============================================================================
+GPLEX: C# file emitted.  185 msec
+=============================================================================
+GPLEX Summary
+=============================================================================
+Total number of states = 1157, total accept states = 1126, backup states = 9
+Original state number was 2666, minimized machine has 1157 states
+Compression summary: used 44,464 nextstate entries, plus 126 map entries
+- Uncompressed automaton would have 1,289,027,584 nextstate entries
+- Input characters are packed into 62 equivalence classes
+- CharClass compression 99.99%, 62 entries Vs 1,114,112
+- Nextstate table compression 38.02%, 44,464 entries Vs 71,734
+- CharacterMap compression is 99.99%, 126 entries Vs 1,114,112
+- Decision tree depth is 1
+
+Backup state report --- 
+In <0>, after "packHalf2" automaton could accept "{identifier}" in state 577
+--- after ''x'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "packSnorm4" automaton could accept "{identifier}" in state 583
+--- after ''x'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "packDouble2" automaton could accept "{identifier}" in state 589
+--- after ''x'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "mat2" automaton could accept "{class}" in state 603
+--- after ''x'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "image1D" automaton could accept "{class}" in state 871
+--- after ''A'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "image2D" automaton could accept "{class}" in state 872
+--- after ''A'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "sampler1D" automaton could accept "{class}" in state 1085
+--- after ''S'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "sampler2DRect" automaton could accept "{class}" in state 1086
+--- after ''S'' automaton is in a non-accept state and might need to backup
+
+In <0>, after "sampler2D" automaton could accept "{class}" in state 1087
+--- after ''S'' automaton is in a non-accept state and might need to backup
+
+=============================================================================
+ */
