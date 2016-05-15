@@ -65,6 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GLSL\generateLexer.cs.bat" />
     <None Include="GLSL\GLSLLexer.lex" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
